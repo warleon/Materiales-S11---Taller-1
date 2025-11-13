@@ -11,7 +11,7 @@ provider:
 
 functions:
   lista_buckets:
-    handler: lista_bucket.lambda_handler
+    handler: lista_buckets.lambda_handler
     memorySize: 512
     events:
       - http:
